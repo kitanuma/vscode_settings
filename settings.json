@@ -1,0 +1,85 @@
+{
+    "workbench.colorTheme": "Best Themes - Gruvbox Concoctis Dark",
+    "editor.fontFamily": "CommitMono, Monaspace Neon",
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 400,
+    "editor.fontSize": 12.5,
+    "background.enabled": true,
+    "background.fullscreen": {
+        "images": ["https://img3.gelbooru.com/images/34/2c/342c83a69493f127d5b14d6df1df2551.jpg"], // urls of your images
+        "opacity": 0.95, // 0.85 ~ 0.95 recommended
+        "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+        "position": "center", // alias to `background-position`, default `center`
+        "interval": 0 // seconds of interval for carousel, default `0` to disabled.
+    },
+
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "smooth",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.editor.decorations.colors": true,
+
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave":true,
+    "editor.formatOnSaveMode": "modifications",
+
+    "workbench.editor.highlightModifiedTabs": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+
+    "explorer.sortOrder": "type",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.stickyScroll.enabled": true,
+    "breadcrumbs.enabled": true,
+
+    "editor.minimap.enabled" : false,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.maxColumn": 100,
+    "editor.minimap.size": "fill",
+
+    "window.density.editorTabHeight": "compact",
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+
+    "editor.bracketPairColorization.enabled": true,
+
+    "workbench.tree.indent": 11,
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#999999"  // Default is #555555.
+    },
+    "workbench.tree.enableStickyScroll": true,
+    "explorer.compactFolders": false,
+
+    "debug.toolBarLocation": "commandCenter",
+
+    "files.defaultLanguage": "markdown",
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
+    "markdown.validate.enabled": true,
+
+
+    "files.autoGuessEncoding": true,
+
+    "editor.find.autoFindInSelection": "multiline",
+
+    "terminal.integrated.fontFamily": "Monaspace Neon",
+    "terminal.integrated.scrollback": 10000,
+
+    "git.autofetch": true,
+    "git.autoStash": true,
+    "git.mergeEditor": true,
+
+    "git.enableSmartCommit": true,
+    "git.suggestSmartCommit": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.experimentalWhitespaceRendering": "font",
+
+    "workbench.tree.renderIndentGuides": "always",
+    "editor.guides.bracketPairs": true,
+    "warmUp.changeCount": "15",
+}
